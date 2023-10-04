@@ -1,6 +1,6 @@
 <template>
   <main class="main">
-    <h1>{{ msg }}</h1>
+    <h1>{{ titleMsg }}</h1>
     <ul>
       <li v-for="movie in movies" :key="movie.id">
         ➡️ {{ movie.title }}
@@ -15,7 +15,7 @@ import movieService from "@/services/movieService";
 export default {
   name: "TheMain",
   props: {
-    msg: String,
+    titleMsg: String,
   },
 
   data() {

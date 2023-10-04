@@ -1,7 +1,7 @@
 <template>
   <!-- <TheMain msg="Welcome to Your Vue.js App"/> -->
   <TheHeader />
-  <TheMain msg="Todo List"/>
+  <TheMain title-msg="API Filmes"/>
   <TheFooter />
   
 </template>
